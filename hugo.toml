@@ -1,15 +1,23 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://dwsh.com.br/'
+locale = 'pt-br'
+title = 'Damwell Smart Solutions'
 theme = "github.com/nunocoracao/blowfish/v2"
 disableModulesWithMismatch = true
 
 [params]
   # Desativa o feed de posts na página inicial para focar apenas na mensagem
-  mainSections = [] 
+  mainSections = []
+  
+# --- FORÇAR PÁGINA EM CONSTRUÇÃO 2026 ---
 
 [params.homepage]
+  layout = "background"
   showAvatar = true
-  avatarSize = "l" # Deixa seu avatar/logo em destaque
+  avatarSize = "l"
   title = "🚀 Algo incrível está sendo construído aqui!"
   description = "Estamos preparando um espaço cheio de conteúdo sobre tecnologia, automação e design. Volte em breve!"
+  
+  [[params.homepage.links]]
+    github = "https://github.com/seu-usuario"
+  [[params.homepage.links]]
+    linkedin = "https://linkedin.com/in/seu-perfil"
