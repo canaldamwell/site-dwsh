@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = "github.com/nunocoracao/blowfish/v2"
+disableModulesWithMismatch = true
+
+[params]
+  # Desativa o feed de posts na página inicial para focar apenas na mensagem
+  mainSections = [] 
+
+[params.homepage]
+  showAvatar = true
+  avatarSize = "l" # Deixa seu avatar/logo em destaque
+  title = "🚀 Algo incrível está sendo construído aqui!"
+  description = "Estamos preparando um espaço cheio de conteúdo sobre tecnologia, automação e design. Volte em breve!"
